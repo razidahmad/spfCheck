@@ -1,3 +1,5 @@
+<?php
+
 include('spfCheck.php')
 
 // basic testing script for spfCheck class
@@ -36,3 +38,4 @@ if ($numLookups <= 10)
     echo "Success:  SPF record uses $numLookups DNS lookups <br>";
 else
     echo "Error:  SPF record uses $numLookups or more DNS lookups.  The limit is 10 <br>";
+?>
